@@ -1,5 +1,9 @@
-import 'package:task_test/task_test.dart' as task_test;
+double calculateTotal(double price, int quantity) {
+  return price * quantity;
+}
 
-void main(List<String> arguments) {
-  print('Hello world: ${task_test.calculate()}!');
+void main() {
+  // أمثلة الاستخدام:
+  print(calculateTotal(50.0, 3)); // الطباعة: 150.0
+  print(calculateTotal(25.5, 2)); // الطباعة: 51.0
 }
