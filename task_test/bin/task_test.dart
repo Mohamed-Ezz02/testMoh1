@@ -1,9 +1,7 @@
 //Q1
-
 double calculateTotal(double price, int quantity) {
   return price * quantity;
 }
-
 void main() {
   print(calculateTotal(50.0, 3)); 
   print(calculateTotal(25.5, 2)); 
